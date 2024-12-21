@@ -1,0 +1,76 @@
+/* General reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Light background */
+    color: #333; /* Text color */
+}
+
+/* Center container styling */
+.container {
+    max-width: 600px; /* Limit the width of the container */
+    margin: 50px auto; /* Center the container vertically and horizontally */
+    padding: 20px;
+    background-color: white; /* White card background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center;
+}
+
+/* Heading styling */
+h1 {
+    color: #007bff; /* Bright blue for headings */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+/* Links styling */
+a {
+    text-decoration: none; /* Remove underline */
+    font-size: 16px;
+    color: #007bff; /* Blue links */
+    padding: 8px 15px; /* Add padding for click area */
+    border: 2px solid #007bff; /* Border matches link color */
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* Link hover effects */
+a:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: white; /* White text on hover */
+    transform: scale(1.05); /* Slightly larger hover effect */
+}
+
+/* Link separation */
+a + a {
+    margin-left: 10px; /* Add space between links */
+}
+
+/* Mobile-friendly responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    a {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}

@@ -1,0 +1,87 @@
+/* General reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Dark text color for contrast */
+}
+
+/* Centering and styling the login form */
+form {
+    max-width: 400px; /* Limit the form's width */
+    margin: 50px auto; /* Center the form vertically and horizontally */
+    padding: 20px;
+    background-color: white; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center;
+}
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    color: #007bff; /* Bright blue for the heading */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Input field styling */
+input[type="text"], input[type="password"] {
+    width: 90%; /* Full width within the form */
+    padding: 10px;
+    margin: 10px 0; /* Space between fields */
+    border: 1px solid #ccc; /* Subtle border */
+    border-radius: 5px; /* Rounded input fields */
+    font-size: 16px; /* Legible font size */
+    box-sizing: border-box; /* Ensure consistent box model */
+}
+
+/* Button styling */
+button {
+    width: 95%; /* Match the width of inputs */
+    padding: 10px;
+    background-color: #007bff; /* Blue button */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Link styling */
+a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Blue links */
+    font-size: 14px;
+    transition: color 0.3s ease; 
+    border: 2px solid greenyellow;
+   background-color: aquamarine;
+}
+
+a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Mobile-friendly adjustments */
+@media (max-width: 768px) {
+    form {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    input[type="text"], input[type="password"], button {
+        font-size: 14px;
+    }
+}
